@@ -1,0 +1,1564 @@
+{
+  "title": "Complete Python Mastery",
+  "image": "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=800",
+  "price": 500.0,
+  "description": "Master Python from scratch with 30 interactive, follow-along classes.",
+  "classes": [
+    {
+      "order": 1,
+      "title": "Class 1: Building Your Lab",
+      "description": "Setting up the professional tools you need to code.",
+      "steps": [
+        {
+          "order": 1,
+          "type": "info",
+          "title": "The Chef's Kitchen",
+          "content": {
+            "text": "Imagine you want to cook a 5-star meal. You have the ingredients (Code), but you need a proper kitchen (VS Code) and a stove (Python Interpreter) to cook them.\n\nToday, we are building your professional kitchen.",
+            "button_text": "Let's Build It!"
+          }
+        },
+        {
+          "order": 2,
+          "type": "info",
+          "title": "The Stove: Python",
+          "content": {
+            "text": "First, we need the machine that actually runs your code. This is **Python** itself.\n\n1. Go to **python.org**.\n2. Download the latest version for Windows.\n3. **CRITICAL**: When installing, check the box that says **'Add Python to PATH'**.",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/242px-Python-logo-notext.svg.png"
+          }
+        },
+        {
+          "order": 3,
+          "type": "info",
+          "title": "The Kitchen: VS Code",
+          "content": {
+            "text": "Now we need a place to write our recipes. **VS Code** is the world's most popular code editor.\n\n1. Go to **code.visualstudio.com**.\n2. Download and install it.\n3. Open it up - this is your new home!",
+            "button_text": "I have VS Code Open"
+          }
+        },
+        {
+          "order": 4,
+          "type": "info",
+          "title": "The Superpower: Python Extension",
+          "content": {
+            "text": "VS Code is smart, but we can make it genius. We need the **Python Extension**.\n\n1. In VS Code, click the **Extensions** icon (looks like blocks on the left).\n2. Search for **'Python'** (by Microsoft).\n3. Click **Install**.\n\nThis gives you color-coding and error checking!",
+            "button_text": "Extension Installed"
+          }
+        },
+        {
+          "order": 5,
+          "type": "info",
+          "title": "Ignition: Running Code",
+          "content": {
+            "text": "Let's test our kitchen.\n\n1. In VS Code, create a new file named `test.py`.\n2. Write this line: `print('Systems Online')`\n3. **Right-click** anywhere in the editor and select **'Run Python File in Terminal'**.\n\nYou should see 'Systems Online' appear at the bottom!",
+            "button_text": "It worked!"
+          }
+        },
+        {
+          "order": 6,
+          "type": "quiz",
+          "title": "Sanity Check",
+          "content": {
+            "question": "What happens if you forget to install the Python Extension?",
+            "options": [
+              "VS Code won't understand Python code well",
+              " The computer explodes",
+              "You can't download Python"
+            ],
+            "answer": "VS Code won't understand Python code well"
+          }
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "title": "Class 2: The Universal Language",
+      "description": "Why Python differs from every other language.",
+      "steps": [
+        {
+          "order": 1,
+          "type": "info",
+          "title": "English vs Binary",
+          "content": {
+            "text": "Why do millions love Python? Because it speaks **Human**, not **Robot**.\n\nOther languages demand complex grammar (syntax). Python just wants to know what you want to do. It's the closest thing to simply talking to your computer.",
+            "button_text": "Show me an example"
+          }
+        },
+        {
+          "order": 2,
+          "type": "info",
+          "title": "The Comparison",
+          "content": {
+            "text": "Look at how we print text in **Java**:\n`System.out.println(\"Hello\");`\n\nNow look at **Python**:\n`print(\"Hello\")`\n\nSee the difference? Python removes the clutter so you can focus on the logic.",
+            "button_text": "Much cleaner!"
+          }
+        },
+        {
+          "order": 3,
+          "type": "info",
+          "title": "High Level vs Low Level",
+          "content": {
+            "text": "Imagine a CEO. They don't want to know how the electricity in the office works; they just want the company to grow. \n\nPython is a **High-Level** language. It handles the 'electricity' (memory and CPU details) for you, so you can focus on building the 'company' (your app).",
+            "button_text": "Next"
+          }
+        },
+        {
+          "order": 4,
+          "type": "info",
+          "title": "Who uses it?",
+          "content": {
+            "text": "You're in good company. **NASA** uses Python to analyze stars. **Netflix** uses it to recommend movies. **Google** was built on it.\n\nBy learning this, you are learning the tool of the giants.",
+            "button_text": "Next"
+          }
+        },
+        {
+          "order": 5,
+          "type": "quiz",
+          "title": "Language Level",
+          "content": {
+            "question": "Python is considered a 'High-Level' language. What does that mean?",
+            "options": [
+              "It's only for fast computers",
+              "It's closer to human language than machine code",
+              "It's the most expensive language",
+              "It only works on airplanes"
+            ],
+            "answer": "It's closer to human language than machine code"
+          }
+        },
+        {
+          "order": 6,
+          "type": "quiz",
+          "title": "Knowledge Check",
+          "content": {
+            "question": "What serves as the 'Stove' in our kitchen analogy?",
+            "options": [
+              "VS Code",
+              "The Python Interpreter",
+              "The Monitor"
+            ],
+            "answer": "The Python Interpreter"
+          }
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "title": "Class 3: The Megaphone (Output)",
+      "description": "Learning how to make your computer speak using print().",
+      "steps": [
+        {
+          "order": 1,
+          "type": "info",
+          "title": "Speaking to the World",
+          "content": {
+            "text": "Every programmer starts with 'Hello World'. Why? Because the most basic thing a computer can do is tell you what it's thinking.\n\nIn Python, we use the `print()` function. Think of it as a **Megaphone**. Whatever you put inside the parentheses `()` gets shouted out to your screen.",
+            "button_text": "Let's try it!"
+          }
+        },
+        {
+          "order": 2,
+          "type": "code",
+          "title": "Your First Instruction",
+          "content": {
+            "text": "Type exactly this: `print(\"Hello Python\")` and hit Run. Note the double quotes `\" \"`—they tell Python this is text, not a command.",
+            "initial_code": "",
+            "answer": "print(\"Hello Python\")",
+            "hint": "Don't forget the quotes and parentheses!"
+          }
+        },
+        {
+          "order": 3,
+          "type": "info",
+          "title": "New Lines",
+          "content": {
+            "text": "What if you want to shout on two different lines? \n\nYou can use `\\n`. It stands for **New Line**.\n\nExample: `print(\"Hello\\nWorld\")`",
+            "button_text": "Next"
+          }
+        },
+        {
+          "order": 4,
+          "type": "code",
+          "title": "The Line Break",
+          "content": {
+            "text": "Print `Line 1` and `Line 2` on two separate lines using a single `print()` command.",
+            "initial_code": "print(\"\")",
+            "answer": "print(\"Line 1\\nLine 2\")",
+            "hint": "Use \\n between the lines!"
+          }
+        },
+        {
+          "order": 5,
+          "type": "quiz",
+          "title": "The Megaphone",
+          "content": {
+            "question": "What happens if you forget the parentheses in print \"Hello\"?",
+            "options": [
+              "It prints normally",
+              "It causes a Syntax Error",
+              "It saves to a file",
+              "Nothing"
+            ],
+            "answer": "It causes a Syntax Error"
+          }
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "title": "Class 4: Labelled Boxes (Variables)",
+      "description": "How to store information so you can use it later.",
+      "steps": [
+        {
+          "order": 1,
+          "type": "info",
+          "title": "Memory & Labels",
+          "content": {
+            "text": "Imagine you are moving houses. If you throw everything into one big pile, you'll never find your socks.\n\nYou use **Boxes with Labels**. \n\nIn Python, a **Variable** is a box. The **Name** is the label on the box, and the **Value** is what's inside. \n\nExample: `score = 10` means 'Put the number 10 into a box named score'.",
+            "button_text": "Got it!"
+          }
+        },
+        {
+          "order": 2,
+          "type": "code",
+          "title": "Packing a Box",
+          "content": {
+            "text": "Create a variable named `city` and set it equal to `\"New York\"`. Then `print(city)`.",
+            "initial_code": "city = \nprint(city)",
+            "answer": "city = \"New York\"\nprint(city)",
+            "hint": "Put quotes around New York!"
+          }
+        },
+        {
+          "order": 3,
+          "type": "info",
+          "title": "Professional Naming",
+          "content": {
+            "text": "In Python, we use **snake_case** for variables. \n\nUse all lowercase and underscores for spaces.\n- `user_age` (Good)\n- `UserAge` (Avoid)\n- `user age` (Error - no spaces allowed!)",
+            "button_text": "Next"
+          }
+        },
+        {
+          "order": 4,
+          "type": "quiz",
+          "title": "Naming Rules",
+          "content": {
+            "question": "Which of these is a valid Python variable name?",
+            "options": [
+              "1st_place",
+              "total amount",
+              "player_score",
+              "class"
+            ],
+            "answer": "player_score"
+          }
+        },
+        {
+          "order": 5,
+          "type": "info",
+          "title": "Changing the Value",
+          "content": {
+            "text": "You can change what's inside a box anytime. \n\n`x = 5` then `x = 10` means the 5 is thrown away and replaced by 10.",
+            "button_text": "Got it"
+          }
+        },
+        {
+          "order": 6,
+          "type": "code",
+          "title": "The Update",
+          "content": {
+            "text": "Create `health = 100`, then on the next line update `health` to be `80`. Finally, print `health`.",
+            "initial_code": "health = 100\n\nprint(health)",
+            "answer": "health = 100\nhealth = 80\nprint(health)",
+            "hint": "Just write health = 80 before the print!"
+          }
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "title": "Class 5: The Digital Calculator",
+      "description": "Working with Integers, Floats, and arithmetic.",
+      "steps": [
+        {
+          "order": 1,
+          "type": "info",
+          "title": "Whole vs Decimal",
+          "content": {
+            "text": "In Python, numbers come in two flavors:\n\n1. **Integers (int)**: Whole numbers like `5` or `-2`.\n2. **Floats**: Decimals like `3.14`.\n\nYou can use `+`, `-`, `*` (multiply), and `/` (divide).",
+            "button_text": "Let's Calc"
+          }
+        },
+        {
+          "order": 2,
+          "type": "code",
+          "title": "Math in Action",
+          "content": {
+            "text": "Multiply `10` by `5` and store it in `result`. Then `print(result)`.",
+            "initial_code": "result = \nprint(result)",
+            "answer": [
+              "result = 10 * 5\nprint(result)",
+              "result = 5 * 10\nprint(result)"
+            ],
+            "hint": "Use * for multiplication!"
+          }
+        },
+        {
+          "order": 3,
+          "type": "info",
+          "title": "The Remainder (%)",
+          "content": {
+            "text": "The **Modulo** operator `%` gives you the REMAINDER of a division.\n\nExample: `10 % 3` is `1` (because 3 goes into 10 three times with 1 left over).\n\nThis is super useful for checking if a number is Even or Odd!",
+            "button_text": "Try Modulo"
+          }
+        },
+        {
+          "order": 4,
+          "type": "code",
+          "title": "Exponents",
+          "content": {
+            "text": "In Python, `**` is used for 'Power of'. \n\nCalculate 2 to the power of 3 (2³) and print it.",
+            "initial_code": "print(2  3)",
+            "answer": "print(2 ** 3)",
+            "hint": "Use ** for powers!"
+          }
+        },
+        {
+          "order": 5,
+          "type": "quiz",
+          "title": "The Float Rule",
+          "content": {
+            "question": "What is the result of 10 / 2 in Python?",
+            "options": [
+              "5",
+              "5.0",
+              "Error",
+              "2"
+            ],
+            "answer": "5.0"
+          }
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "title": "Class 6: Beads on a String",
+      "description": "Manipulating text and formatting with f-strings.",
+      "steps": [
+        {
+          "order": 1,
+          "type": "info",
+          "title": "Text is a String",
+          "content": {
+            "text": "Text in Python is called a **String**. Think of it as beads on a string. \n\nThe modern way to format text is using **f-strings**. \n\nExample: `print(f\"My name is {name}\")`",
+            "button_text": "Next"
+          }
+        },
+        {
+          "order": 2,
+          "type": "code",
+          "title": "Injecting Variables",
+          "content": {
+            "text": "Use an f-string to print: `Hello, Alice`. (Variable `user` is provided).",
+            "initial_code": "user = \"Alice\"\nprint(f\"\")",
+            "answer": "user = \"Alice\"\nprint(f\"Hello, {user}\")",
+            "hint": "Put user inside { } !"
+          }
+        },
+        {
+          "order": 3,
+          "type": "info",
+          "title": "String Methods",
+          "content": {
+            "text": "Strings have built-in skills called **Methods**.\n- `.upper()` makes text LOUD.\n- `.lower()` makes text quiet.\n- `len()` tells you how many characters (beads) are in the string.",
+            "button_text": "Try them"
+          }
+        },
+        {
+          "order": 4,
+          "type": "code",
+          "title": "Making Noise",
+          "content": {
+            "text": "Print the variable `msg` in all UPPERCASE.",
+            "initial_code": "msg = \"hello\"\nprint()",
+            "answer": "msg = \"hello\"\nprint(msg.upper())",
+            "hint": "Use msg.upper()!"
+          }
+        },
+        {
+          "order": 5,
+          "type": "quiz",
+          "title": "Counting Beads",
+          "content": {
+            "question": "What is len('Python')?",
+            "options": [
+              "5",
+              "6",
+              "7",
+              "0"
+            ],
+            "answer": "6"
+          }
+        }
+      ]
+    },
+    {
+      "order": 7,
+      "title": "Class 7: Talking Back (Input)",
+      "description": "Getting information from the user with input().",
+      "steps": [
+        {
+          "order": 1,
+          "type": "info",
+          "title": "Listening to Users",
+          "content": {
+            "text": "Programs that listen are much more useful. We use the `input()` function to ask the user a question.",
+            "button_text": "Understood"
+          }
+        },
+        {
+          "order": 2,
+          "type": "input",
+          "title": "Identify the Tool",
+          "content": {
+            "text": "What function do we use to get text from a user?",
+            "placeholder": "Type here...",
+            "answer": "input"
+          }
+        },
+        {
+          "order": 3,
+          "type": "info",
+          "title": "The Input Trap",
+          "content": {
+            "text": "**CRITICAL**: `input()` always treats everything as Text (String). \n\nIf you ask for an age and the user types `25`, Python sees `\"25\"`. You can't do math with text!",
+            "button_text": "How to fix?"
+          }
+        },
+        {
+          "order": 4,
+          "type": "info",
+          "title": "Type Casting",
+          "content": {
+            "text": "To turn text into a number, we use `int()` (for whole numbers) or `float()` (for decimals).\n\nExample: `age = int(input(\"Enter age: \"))`",
+            "button_text": "Next"
+          }
+        },
+        {
+          "order": 5,
+          "type": "code",
+          "title": "The Age Adder",
+          "content": {
+            "text": "Ask the user for their age using `input(\"Age: \")`, convert it to an integer, and add `1` to it. Then print the result.",
+            "initial_code": "user_input = \nage = int(user_input)\nprint(age + 1)",
+            "answer": "user_input = input(\"Age: \")\nage = int(user_input)\nprint(age + 1)",
+            "hint": "Use input(\"Age: \") in the first line."
+          }
+        }
+      ]
+    },
+    {
+      "order": 8,
+      "title": "Class 8: The Power Switch (Booleans)",
+      "description": "Yes/No logic in programming.",
+      "steps": [
+        {
+          "order": 1,
+          "type": "info",
+          "title": "True or False",
+          "content": {
+            "text": "Everything in logic boils down to **True** or **False**. This is called a **Boolean**.\n\nYou create them with comparisons like `>` (greater than) or `==` (is equal to).",
+            "button_text": "The Tools"
+          }
+        },
+        {
+          "order": 2,
+          "type": "info",
+          "title": "Comparison Operators",
+          "content": {
+            "text": "- `==` (Equal to)\n- `!=` (NOT equal to)\n- `>` (Greater than)\n- `<` (Less than)\n- `>=` (Greater or equal)\n- `<=` (Less or equal)",
+            "button_text": "Next"
+          }
+        },
+        {
+          "order": 3,
+          "type": "quiz",
+          "title": "Logical Result",
+          "content": {
+            "question": "What is the result of '10 != 10'?",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": "False"
+          }
+        },
+        {
+          "order": 4,
+          "type": "code",
+          "title": "Checking Equality",
+          "content": {
+            "text": "Compare if `password` is equal to `\"1234\"` and print the True/False result.",
+            "initial_code": "password = \"admin\"\nprint()",
+            "answer": "password = \"admin\"\nprint(password == \"1234\")",
+            "hint": "Use == for comparison!"
+          }
+        }
+      ]
+    },
+    {
+      "order": 9,
+      "title": "Class 9: Traffic Lights (Logic Gates)",
+      "description": "Combining conditions with AND, OR, and NOT.",
+      "steps": [
+        {
+          "order": 1,
+          "type": "info",
+          "title": "AND, OR, NOT",
+          "content": {
+            "text": "- **AND**: Both must be True.\n- **OR**: At least one must be True.\n- **NOT**: Flipped value.",
+            "button_text": "Practical View"
+          }
+        },
+        {
+          "order": 2,
+          "type": "info",
+          "title": "The Security Guard",
+          "content": {
+            "text": "Imagine a nightclub. To get in, you need `has_ticket` AND `is_over_18`.\n\nIf one is False, you stay outside!",
+            "button_text": "Next"
+          }
+        },
+        {
+          "order": 3,
+          "type": "quiz",
+          "title": "Logical Thinking",
+          "content": {
+            "question": "True AND False equals...?",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": "False"
+          }
+        },
+        {
+          "order": 4,
+          "type": "code",
+          "title": "Combined Logic",
+          "content": {
+            "text": "Check if `age` is 18+ OR `has_permission` is True. Print the result.",
+            "initial_code": "age = 16\nhas_permission = True\nprint()",
+            "answer": "age = 16\nhas_permission = True\nprint(age >= 18 or has_permission)",
+            "hint": "Use >= 18 or has_permission"
+          }
+        }
+      ]
+    },
+    {
+      "order": 10,
+      "title": "Class 10: The Big 'IF'",
+      "description": "Making decisions with the if statement.",
+      "steps": [
+        {
+          "order": 1,
+          "type": "info",
+          "title": "Branching Paths",
+          "content": {
+            "text": "Code usually runs like a straight road. An **if** statement is a fork in the road.\n\n`if age > 18:` means 'If this is true, do the code below it'.",
+            "button_text": "The Syntax"
+          }
+        },
+        {
+          "order": 2,
+          "type": "info",
+          "title": "The Colon and Spaces",
+          "content": {
+            "text": "Python is very picky. You MUST put a colon `:` at the end of the if line, and you MUST indent the code inside it (usually 4 spaces).\n\nIf it's not indented, Python doesn't think it's part of the decision!",
+            "button_text": "Next"
+          }
+        },
+        {
+          "order": 3,
+          "type": "code",
+          "title": "The First Decision",
+          "content": {
+            "text": "Complete the if statement to print 'Access Granted' if `passcode` is `777`.",
+            "initial_code": "passcode = 777\nif passcode == :\n    print(\"Access Granted\")",
+            "answer": "passcode = 777\nif passcode == 777:\n    print(\"Access Granted\")",
+            "hint": "Check for equality with 777!"
+          }
+        },
+        {
+          "order": 4,
+          "type": "quiz",
+          "title": "Indentation Check",
+          "content": {
+            "question": "What happens if you don't indent code inside an if statement?",
+            "options": [
+              "It runs anyway",
+              "It causes an IndentationError",
+              "It deletes the code",
+              "The code runs faster"
+            ],
+            "answer": "It causes an IndentationError"
+          }
+        }
+      ]
+    },
+    {
+      "order": 11,
+      "title": "Class 11: Plan B (Else & Elif)",
+      "description": "Handling alternative paths and multiple choices.",
+      "steps": [
+        {
+          "order": 1,
+          "type": "info",
+          "title": "What if it's False?",
+          "content": {
+            "text": "An `if` statement only runs if the condition is True. What if it's False? \n\nWe use **else** for a 'default' path and **elif** (else-if) to check multiple specific rules.",
+            "button_text": "Check it out"
+          }
+        },
+        {
+          "order": 2,
+          "type": "code",
+          "title": "Grade Checker",
+          "content": {
+            "text": "Complete the logic: If `score` is 90+ print 'A', otherwise (else) print 'B'.",
+            "initial_code": "score = 85\nif score >= 90:\n    print(\"A\")\nelse:\n    print(\"\")",
+            "answer": "score = 85\nif score >= 90:\n    print(\"A\")\nelse:\n    print(\"B\")",
+            "hint": "Just print 'B' inside the else block!"
+          }
+        },
+        {
+          "order": 3,
+          "type": "info",
+          "title": "Multiple Choices (elif)",
+          "content": {
+            "text": "You can have as many `elif` statements as you want between the `if` and the `else`.\n\nPython checks them in order and stops at the first one that is True.",
+            "button_text": "Next"
+          }
+        },
+        {
+          "order": 4,
+          "type": "code",
+          "title": "Temperature Check",
+          "content": {
+            "text": "If `temp` is above 30 print 'Hot', else if (`elif`) `temp` is above 20 print 'Warm', otherwise print 'Cold'.",
+            "initial_code": "temp = 25\nif temp > 30:\n    print(\"Hot\")\nelif :\n    print(\"Warm\")\nelse:\n    print(\"Cold\")",
+            "answer": "temp = 25\nif temp > 30:\n    print(\"Hot\")\nelif temp > 20:\n    print(\"Warm\")\nelse:\n    print(\"Cold\")",
+            "hint": "Fill in the elif condition: temp > 20"
+          }
+        }
+      ]
+    },
+    {
+      "order": 12,
+      "title": "Class 12: Logic inside Logic (Nested)",
+      "description": "Nesting conditions within conditions.",
+      "steps": [
+        {
+          "order": 1,
+          "type": "info",
+          "title": "Layered Decisions",
+          "content": {
+            "text": "Sometimes you need to clear one hurdle before you check the next. \n\nExample: `if has_ticket:` then inside that `if is_front_row:`.",
+            "button_text": "Visualizing Nesting"
+          }
+        },
+        {
+          "order": 2,
+          "type": "info",
+          "title": "The Nesting Trap",
+          "content": {
+            "text": "Be careful! If you nest too deep (like 5 or 6 times), your code becomes hard to read. This is often called 'Spaghetti Code'.\n\nAlways try to keep your logic as flat as possible.",
+            "button_text": "Got it"
+          }
+        },
+        {
+          "order": 3,
+          "type": "quiz",
+          "title": "Indentation",
+          "content": {
+            "question": "How does Python know a line of code is 'inside' an if statement?",
+            "options": [
+              "Using curly braces { }",
+              "Using indentation (Spaces/Tabs)",
+              "By using the word 'inside'",
+              "It just guesses"
+            ],
+            "answer": "Using indentation (Spaces/Tabs)"
+          }
+        },
+        {
+          "order": 4,
+          "type": "code",
+          "title": "Double Lock",
+          "content": {
+            "text": "Check if `is_logged_in` is True, and INSIDE that, check if `is_admin` is True. If both are True, print `\"Welcome Boss\"`.",
+            "initial_code": "is_logged_in = True\nis_admin = True\n\nif is_logged_in:\n    if :\n        print(\"Welcome Boss\")",
+            "answer": "is_logged_in = True\nis_admin = True\n\nif is_logged_in:\n    if is_admin:\n        print(\"Welcome Boss\")",
+            "hint": "Add the second if condition: if is_admin:"
+          }
+        }
+      ]
+    },
+    {
+      "order": 13,
+      "title": "Class 13: Groundhog Day (While Loops)",
+      "description": "Repeating code until a condition is no longer met.",
+      "steps": [
+        {
+          "order": 1,
+          "type": "info",
+          "title": "Repetitive Tasks",
+          "content": {
+            "text": "Computers are great at boring work. A **while** loop repeats code as long as a condition is True. \n\nCareful: If the condition never becomes False, your program will loop forever!",
+            "button_text": "Loop it"
+          }
+        },
+        {
+          "order": 2,
+          "type": "code",
+          "title": "The Countdown",
+          "content": {
+            "text": "Finish the while loop to print `count` while it is greater than `0`. (Don't forget to subtract 1 each time!).",
+            "initial_code": "count = 3\nwhile count > 0:\n    print(count)\n    count =",
+            "answer": "count = 3\nwhile count > 0:\n    print(count)\n    count = count - 1",
+            "hint": "Subtract 1 from count: count = count - 1"
+          }
+        },
+        {
+          "order": 3,
+          "type": "info",
+          "title": "Ending the Loop",
+          "content": {
+            "text": "Most loops need a **counter** (like our variable `count`). \n\nIf you forget to change the counter inside the loop, the condition stays True forever. This is an **Infinite Loop**!",
+            "button_text": "Understood"
+          }
+        },
+        {
+          "order": 4,
+          "type": "quiz",
+          "title": "Loop Logic",
+          "content": {
+            "question": "If a while loop condition is False the very first time, how many times does the code inside run?",
+            "options": [
+              "0",
+              "1",
+              "Forever",
+              "It causes an error"
+            ],
+            "answer": "0"
+          }
+        }
+      ]
+    },
+    {
+      "order": 14,
+      "title": "Class 14: The Conveyor Belt (For Loops)",
+      "description": "Iterating over a range or a collection of items.",
+      "steps": [
+        {
+          "order": 1,
+          "type": "info",
+          "title": "Exact Repetition",
+          "content": {
+            "text": "A **for** loop is used when you know exactly how many times you want to repeat, or if you want to look at every item in a list.\n\n`for i in range(5):` means 'Do this 5 times'.",
+            "button_text": "Range Mastery"
+          }
+        },
+        {
+          "order": 2,
+          "type": "info",
+          "title": "Start, Stop, Step",
+          "content": {
+            "text": "The `range()` function is more powerful than you think:\n- `range(5)` -> 0, 1, 2, 3, 4\n- `range(1, 5)` -> 1, 2, 3, 4\n- `range(0, 10, 2)` -> 0, 2, 4, 6, 8 (Steps by 2!)",
+            "button_text": "Next"
+          }
+        },
+        {
+          "order": 3,
+          "type": "quiz",
+          "title": "Range Logic",
+          "content": {
+            "question": "How many times will 'for i in range(10):' run?",
+            "options": [
+              "1",
+              "9",
+              "10",
+              "11"
+            ],
+            "answer": "10"
+          }
+        },
+        {
+          "order": 4,
+          "type": "code",
+          "title": "Skipping Numbers",
+          "content": {
+            "text": "Use a `for` loop and `range()` to print all EVEN numbers from `0` up to (but not including) `10`.",
+            "initial_code": "for i in range(0, 10, ):\n    print(i)",
+            "answer": "for i in range(0, 10, 2):\n    print(i)",
+            "hint": "Use 2 as the third number in range!"
+          }
+        }
+      ]
+    },
+    {
+      "order": 15,
+      "title": "Class 15: Breaking the Cycle",
+      "description": "Controlling loops with break and continue.",
+      "steps": [
+        {
+          "order": 1,
+          "type": "info",
+          "title": "Emergency Exit",
+          "content": {
+            "text": "- **break**: Stops the loop completely and exits.\n- **continue**: Skips the rest of the current turn and goes to the next one.",
+            "button_text": "Next"
+          }
+        },
+        {
+          "order": 2,
+          "type": "quiz",
+          "title": "Exit Strategy",
+          "content": {
+            "question": "Which command stops a loop immediately?",
+            "options": [
+              "stop",
+              "exit",
+              "break",
+              "skip"
+            ],
+            "answer": "break"
+          }
+        },
+        {
+          "order": 3,
+          "type": "code",
+          "title": "The Search",
+          "content": {
+            "text": "In a loop from 1 to 10, use `break` if the number is `5`. Print each number.",
+            "initial_code": "for i in range(1, 11):\n    if i == 5:\n        \n    print(i)",
+            "answer": "for i in range(1, 11):\n    if i == 5:\n        break\n    print(i)",
+            "hint": "Write break inside the if block!"
+          }
+        }
+      ]
+    },
+    {
+      "order": 16,
+      "title": "Class 16: The Shopping List (Lists)",
+      "description": "Storing multiple items in a single variable.",
+      "steps": [
+        {
+          "order": 1,
+          "type": "info",
+          "title": "The Problem",
+          "content": {
+            "text": "Imagine you are making a grocery app. Storing 50 items in 50 variables like `item1`, `item2`... is a nightmare.\n\nWe need a way to store a single collection of many items. In Python, we use **Lists**.",
+            "button_text": "Introduce Lists"
+          }
+        },
+        {
+          "order": 2,
+          "type": "info",
+          "title": "List Syntax",
+          "content": {
+            "text": "Lists are created using square brackets `[ ]` and commas.\n\nExample: `fruits = [\"apple\", \"banana\", \"cherry\"]`",
+            "button_text": "Try it!"
+          }
+        },
+        {
+          "order": 3,
+          "type": "code",
+          "title": "Your First List",
+          "content": {
+            "text": "Create a list named `colors` containing `\"red\"`, `\"green\"`, and `\"blue\"`. Then print the whole list.",
+            "initial_code": "colors = \nprint(colors)",
+            "answer": "colors = [\"red\", \"green\", \"blue\"]\nprint(colors)",
+            "hint": "Use square brackets and quotes for each color!"
+          }
+        },
+        {
+          "order": 4,
+          "type": "info",
+          "title": "Zero-Based Indexing",
+          "content": {
+            "text": "Computers start counting at **0**, not 1.\n\nIn our list `[\"A\", \"B\", \"C\"]`:\n- Index 0 is \"A\"\n- Index 1 is \"B\"\n- Index 2 is \"C\"",
+            "button_text": "Got it"
+          }
+        },
+        {
+          "order": 5,
+          "type": "quiz",
+          "title": "Picking an Item",
+          "content": {
+            "question": "If animals = [\"cat\", \"dog\", \"bird\"], what is animals[1]?",
+            "options": [
+              "cat",
+              "dog",
+              "bird",
+              "Error"
+            ],
+            "answer": "dog"
+          }
+        },
+        {
+          "order": 6,
+          "type": "code",
+          "title": "Accessing by Index",
+          "content": {
+            "text": "Print only the FIRST item from the provided list `names`.",
+            "initial_code": "names = [\"John\", \"Alice\", \"Bob\"]\nprint()",
+            "answer": "names = [\"John\", \"Alice\", \"Bob\"]\nprint(names[0])",
+            "hint": "Use names[0] to get the first item!"
+          }
+        }
+      ]
+    },
+    {
+      "order": 17,
+      "title": "Class 17: List Workshop (Methods)",
+      "description": "Adding, removing, and sorting items in a list.",
+      "steps": [
+        {
+          "order": 1,
+          "type": "info",
+          "title": "The Growing List",
+          "content": {
+            "text": "Lists are 'mutable', which means you can change them after they are created.\n\nTo add an item to the end, use `.append()`.\n\nExample: `cart.append(\"milk\")`",
+            "button_text": "Next"
+          }
+        },
+        {
+          "order": 2,
+          "type": "code",
+          "title": "Expanding the List",
+          "content": {
+            "text": "Add `\"grapes\"` to the end of the `fruits` list using `.append()`, then print the list.",
+            "initial_code": "fruits = [\"apple\", \"banana\"]\n\nprint(fruits)",
+            "answer": [
+              "fruits = [\"apple\", \"banana\"]\nfruits.append(\"grapes\")\nprint(fruits)"
+            ],
+            "hint": "Use fruits.append(\"grapes\") before the print line."
+          }
+        },
+        {
+          "order": 3,
+          "type": "info",
+          "title": "Removing Items",
+          "content": {
+            "text": "You can remove items too:\n- `.pop(0)` removes by index (removes item at index 0).\n- `.remove(\"item\")` removes by the actual name of the item.",
+            "button_text": "Understood"
+          }
+        },
+        {
+          "order": 4,
+          "type": "quiz",
+          "title": "Pop vs Remove",
+          "content": {
+            "question": "Which method do you use if you know the POSITION (index) of the item you want to delete?",
+            "options": [
+              "remove()",
+              "pop()",
+              "delete()",
+              "clear()"
+            ],
+            "answer": "pop()"
+          }
+        },
+        {
+          "order": 5,
+          "type": "info",
+          "title": "Sorting",
+          "content": {
+            "text": "Want things in alphabetical or numerical order? Use `.sort()`.\n\nExample: `numbers.sort()`",
+            "button_text": "Sort code"
+          }
+        },
+        {
+          "order": 6,
+          "type": "code",
+          "title": "Clean Up",
+          "content": {
+            "text": "Sort the `scores` list and then print it.",
+            "initial_code": "scores = [100, 20, 55, 10]\n\nprint(scores)",
+            "answer": [
+              "scores = [100, 20, 55, 10]\nscores.sort()\nprint(scores)"
+            ],
+            "hint": "Use scores.sort()!"
+          }
+        }
+      ]
+    },
+    {
+      "order": 18,
+      "title": "Class 18: The Digital Wallet (Dictionaries)",
+      "description": "Using Key-Value pairs to store structured data.",
+      "steps": [
+        {
+          "order": 1,
+          "type": "info",
+          "title": "Beyond Lists",
+          "content": {
+            "text": "Lists are great for sequences, but for 'real world objects', we need labels.\n\nThink of a **Dictionary**. You look up a **Key** (Word) to find its **Value** (Definition).\n\nIn Python: `user = {\"name\": \"Alice\", \"age\": 25}`",
+            "button_text": "Learn Dictionaries"
+          }
+        },
+        {
+          "order": 2,
+          "type": "code",
+          "title": "Mapping Data",
+          "content": {
+            "text": "Create a dictionary named `car` with keys `\"brand\"` (value \"Tesla\") and `\"model\"` (value \"S\"). Then print it.",
+            "initial_code": "car = \nprint(car)",
+            "answer": "car = {\"brand\": \"Tesla\", \"model\": \"S\"}\nprint(car)",
+            "hint": "Use curly braces { } and colons between keys and values!"
+          }
+        },
+        {
+          "order": 3,
+          "type": "info",
+          "title": "Accessing Keys",
+          "content": {
+            "text": "Instead of using numbers (indexes), you use the label (key).\n\nExample: `print(user[\"name\"])` gives you \"Alice\".",
+            "button_text": "Try it"
+          }
+        },
+        {
+          "order": 4,
+          "type": "code",
+          "title": "Reading the Map",
+          "content": {
+            "text": "Print ONLY the `age` from the `user` dictionary.",
+            "initial_code": "user = {\"name\": \"Bob\", \"age\": 30}\nprint()",
+            "answer": "user = {\"name\": \"Bob\", \"age\": 30}\nprint(user[\"age\"])",
+            "hint": "Use square brackets with the key name: user[\"age\"]"
+          }
+        },
+        {
+          "order": 5,
+          "type": "quiz",
+          "title": "Dictionary Rules",
+          "content": {
+            "question": "What symbols are used to define a Dictionary in Python?",
+            "options": [
+              "[ ] Square Brackets",
+              "( ) Parentheses",
+              "{ } Curly Braces",
+              "< > Angle Brackets"
+            ],
+            "answer": "{ } Curly Braces"
+          }
+        }
+      ]
+    },
+    {
+      "order": 19,
+      "title": "Class 19: The Locked Safe (Tuples & Sets)",
+      "description": "Learning about unchangeable lists and unique collections.",
+      "steps": [
+        {
+          "order": 1,
+          "type": "info",
+          "title": "Immutable Data",
+          "content": {
+            "text": "Sometimes you want a list that **cannot** be changed. \n\nExample: The coordinates of a city or the RGB values of a color. We use **Tuples** for this. They use parentheses `( )` instead of square brackets.",
+            "button_text": "Next"
+          }
+        },
+        {
+          "order": 2,
+          "type": "code",
+          "title": "Storing Constants",
+          "content": {
+            "text": "Create a tuple named `point` with values `10` and `20`. Then print it.",
+            "initial_code": "point = \nprint(point)",
+            "answer": "point = (10, 20)\nprint(point)",
+            "hint": "Use parentheses ( ) !"
+          }
+        },
+        {
+          "order": 3,
+          "type": "quiz",
+          "title": "Tuple Rule",
+          "content": {
+            "question": "What happens if you try to use .append() on a Tuple?",
+            "options": [
+              "It adds the item",
+              "It creates a new tuple",
+              "It causes an Error",
+              "It deletes the tuple"
+            ],
+            "answer": "It causes an Error"
+          }
+        },
+        {
+          "order": 4,
+          "type": "info",
+          "title": "The Set: No Duplicates",
+          "content": {
+            "text": "A **Set** is a collection where every item **must be unique**. If you try to add \"Apple\" twice, it only keeps one.\n\nSets are great for removing duplicates from a list.",
+            "button_text": "Got it"
+          }
+        }
+      ]
+    },
+    {
+      "order": 20,
+      "title": "Class 20: Cutting the Cake (Slicing)",
+      "description": "Mastering indexing and extracting parts of data.",
+      "steps": [
+        {
+          "order": 1,
+          "type": "info",
+          "title": "Range Access",
+          "content": {
+            "text": "You already know `list[0]` gets one item. But what if you want the first three?\n\nWe use **Slicing**: `list[start : stop]`. \n\nNote: The `stop` index is NOT included!",
+            "button_text": "Let's Slice"
+          }
+        },
+        {
+          "order": 2,
+          "type": "code",
+          "title": "Extracting Parts",
+          "content": {
+            "text": "Get the first 3 letters of the string `word` using `[:3]` and print them.",
+            "initial_code": "word = \"PythonMastery\"\nprint(word[])",
+            "answer": "word = \"PythonMastery\"\nprint(word[:3])",
+            "hint": "Use [:3] inside the brackets!"
+          }
+        },
+        {
+          "order": 3,
+          "type": "info",
+          "title": "The Reverse Trick",
+          "content": {
+            "text": "You can add a third number for the **Step**. \n\n`[::-1]` is a famous Python shortcut that reverses a string or list!",
+            "button_text": "Show me"
+          }
+        },
+        {
+          "order": 4,
+          "type": "code",
+          "title": "Backwards",
+          "content": {
+            "text": "Reverse the string `secret` using slicing and print the result.",
+            "initial_code": "secret = \"tacocat\"\nprint()",
+            "answer": "secret = \"tacocat\"\nprint(secret[::-1])",
+            "hint": "Use [::-1]"
+          }
+        },
+        {
+          "order": 5,
+          "type": "quiz",
+          "title": "Negative Indexing",
+          "content": {
+            "question": "In Python, what index represents the VERY LAST item in a list?",
+            "options": [
+              "0",
+              "1",
+              "-1",
+              "99"
+            ],
+            "answer": "-1"
+          }
+        }
+      ]
+    },
+    {
+      "order": 21,
+      "title": "Class 21: The Robot Command (Functions)",
+      "description": "Writing reusable blocks of code to stay efficient.",
+      "steps": [
+        {
+          "order": 1,
+          "type": "info",
+          "title": "Don't Repeat Yourself (DRY)",
+          "content": {
+            "text": "The golden rule of programming is: **If you write the same code twice, you're doing it wrong.**\n\nWe use **Functions** to wrap code into a named command that we can call whenever we want.",
+            "button_text": "Introduce def"
+          }
+        },
+        {
+          "order": 2,
+          "type": "info",
+          "title": "Define vs Call",
+          "content": {
+            "text": "- **Defining**: Teaching the robot a new trick (`def trick():`)\n- **Calling**: Telling the robot to DO the trick (`trick()`)",
+            "button_text": "Try defining"
+          }
+        },
+        {
+          "order": 3,
+          "type": "code",
+          "title": "Your First Function",
+          "content": {
+            "text": "Define a function named `greet` that prints `\"Hello!\"`. Then call it on the next line.",
+            "initial_code": "def greet():\n    \n\ngreet()",
+            "answer": "def greet():\n    print(\"Hello!\")\n\ngreet()",
+            "hint": "Indent the print line!"
+          }
+        },
+        {
+          "order": 4,
+          "type": "info",
+          "title": "Inputs (Parameters)",
+          "content": {
+            "text": "Functions become powerful when you give them data to work with. These are called **Parameters**.\n\nExample: `def greet(name):`",
+            "button_text": "Next"
+          }
+        },
+        {
+          "order": 5,
+          "type": "code",
+          "title": "Custom Greeting",
+          "content": {
+            "text": "Update the function to take a `name` and print `f\"Hello {name}\"`. Then call it with `\"Python\"`.",
+            "initial_code": "def say_hi(name):\n    \n\nsay_hi(\"Python\")",
+            "answer": "def say_hi(name):\n    print(f\"Hello {name}\")\n\nsay_hi(\"Python\")",
+            "hint": "Use an f-string inside the print!"
+          }
+        },
+        {
+          "order": 6,
+          "type": "quiz",
+          "title": "Purpose of Functions",
+          "content": {
+            "question": "Why do professionals use functions?",
+            "options": [
+              "To make the code longer",
+              "To reuse code and keep it organized",
+              "Because Python forces them to",
+              "To hide bugs"
+            ],
+            "answer": "To reuse code and keep it organized"
+          }
+        }
+      ]
+    },
+    {
+      "order": 22,
+      "title": "Class 22: Where do I live? (Scope)",
+      "description": "Understanding Local vs Global variables.",
+      "steps": [
+        {
+          "order": 1,
+          "type": "info",
+          "title": "Variable Boundaries",
+          "content": {
+            "text": "Variables have 'homes'. \n\n- **Global Variables**: Defined outside functions. Everyone can see them.\n- **Local Variables**: Defined inside a function. They 'die' when the function finishes.",
+            "button_text": "Next"
+          }
+        },
+        {
+          "order": 2,
+          "type": "quiz",
+          "title": "Checking Local Scope",
+          "content": {
+            "question": "If I create 'x = 5' inside a function, can I print it outside the function?",
+            "options": [
+              "Yes",
+              "No",
+              "Only if it's a number",
+              "Sometimes"
+            ],
+            "answer": "No"
+          }
+        }
+      ]
+    },
+    {
+      "order": 23,
+      "title": "Class 23: The Safety Net (Try/Except)",
+      "description": "Preventing your program from crashing on errors.",
+      "steps": [
+        {
+          "order": 1,
+          "type": "info",
+          "title": "When Code Goes Wrong",
+          "content": {
+            "text": "Programs fail. Maybe a user types a word instead of a number, or tries to divide by zero.\n\nProfessional code uses **Try / Except** to catch errors gracefully instead of crashing.",
+            "button_text": "Try it"
+          }
+        },
+        {
+          "order": 2,
+          "type": "code",
+          "title": "The Shield",
+          "content": {
+            "text": "Wrap the code in a `try` block, and in the `except` block, print `\"Error!\"`.",
+            "initial_code": "try:\n    x = 10 / 0\nexcept:\n    ",
+            "answer": "try:\n    x = 10 / 0\nexcept:\n    print(\"Error!\")",
+            "hint": "Just indent a print statement under except!"
+          }
+        }
+      ]
+    },
+    {
+      "order": 24,
+      "title": "Class 24: Standing on Giants (Modules)",
+      "description": "Using libraries to expand Python's capabilities.",
+      "steps": [
+        {
+          "order": 1,
+          "type": "info",
+          "title": "Don't Reinvent the Wheel",
+          "content": {
+            "text": "Python has thousands of 'Modules' (Toolboxes) ready for you. \n\nNeed math? `import math`. \nNeed random numbers? `import random`.",
+            "button_text": "Import Math"
+          }
+        },
+        {
+          "order": 2,
+          "type": "code",
+          "title": "The Square Root",
+          "content": {
+            "text": "Import `math` and print the square root of 16 using `math.sqrt(16)`.",
+            "initial_code": "import \nprint(math.sqrt(16))",
+            "answer": "import math\nprint(math.sqrt(16))",
+            "hint": "Just import math at the top!"
+          }
+        },
+        {
+          "order": 3,
+          "type": "code",
+          "title": "Lucky Number",
+          "content": {
+            "text": "Import `random` and print a random integer between 1 and 10 using `random.randint(1, 10)`.",
+            "initial_code": "\nprint(random.randint(1, 10))",
+            "answer": "import random\nprint(random.randint(1, 10))",
+            "hint": "Import random!"
+          }
+        }
+      ]
+    },
+    {
+      "order": 25,
+      "title": "Class 25: The Digital Notebook (Files)",
+      "description": "Reading and writing data to text files.",
+      "steps": [
+        {
+          "order": 1,
+          "type": "info",
+          "title": "Saving Data",
+          "content": {
+            "text": "When your program closes, all variables vanish. To keep data, we save it to a file.\n\nThe modern way to do this is using the `with` keyword.",
+            "button_text": "Write to File"
+          }
+        },
+        {
+          "order": 2,
+          "type": "code",
+          "title": "Writing a Note",
+          "content": {
+            "text": "Write `\"Hello File\"` to a file named `note.txt`.",
+            "initial_code": "with open(\"note.txt\", \"w\") as f:\n    f.write(\"\")",
+            "answer": "with open(\"note.txt\", \"w\") as f:\n    f.write(\"Hello File\")",
+            "hint": "Put \"Hello File\" inside f.write()"
+          }
+        },
+        {
+          "order": 3,
+          "type": "quiz",
+          "title": "The 'w' Mode",
+          "content": {
+            "question": "What does the 'w' stand for in open('file.txt', 'w')?",
+            "options": [
+              "Wait",
+              "Watch",
+              "Write"
+            ],
+            "answer": "Write"
+          }
+        }
+      ]
+    },
+    {
+      "order": 26,
+      "title": "Class 26: The Blueprints (Classes & OOP)",
+      "description": "Learning how to model real-world objects in code.",
+      "steps": [
+        {
+          "order": 1,
+          "type": "info",
+          "title": "What is OOP?",
+          "content": {
+            "text": "Imagine you are building a game with 100 cars. You don't want to create 100 sets of variables. \n\nYou create a **Class** (a Blueprint) and use it to create **Objects** (the actual cars).",
+            "button_text": "Introduce Classes"
+          }
+        },
+        {
+          "order": 2,
+          "type": "code",
+          "title": "The First Blueprint",
+          "content": {
+            "text": "Define an empty class named `User` using the `pass` keyword.",
+            "initial_code": "class User:\n    ",
+            "answer": "class User:\n    pass",
+            "hint": "Just use the word pass!"
+          }
+        },
+        {
+          "order": 3,
+          "type": "info",
+          "title": "The Constructor (__init__)",
+          "content": {
+            "text": "When you create an object, you usually want to give it data immediately (like a name). We use the `__init__` method for this.",
+            "button_text": "See Init"
+          }
+        },
+        {
+          "order": 4,
+          "type": "code",
+          "title": "Setting Traits",
+          "content": {
+            "text": "Inside the class, define `__init__` to set `self.name`.",
+            "initial_code": "class User:\n    def __init__(self, name):\n        self.name =",
+            "answer": "class User:\n    def __init__(self, name):\n        self.name = name",
+            "hint": "Set self.name = name"
+          }
+        },
+        {
+          "order": 5,
+          "type": "quiz",
+          "title": "What is 'Self'?",
+          "content": {
+            "question": "What does 'self' represent in a Python class?",
+            "options": [
+              "The current user",
+              "The specific object being created",
+              "The entire computer",
+              "Nothing, it's optional"
+            ],
+            "answer": "The specific object being created"
+          }
+        }
+      ]
+    },
+    {
+      "order": 27,
+      "title": "Class 27: The Family Tree (Inheritance)",
+      "description": "Sharing logic between different classes.",
+      "steps": [
+        {
+          "order": 1,
+          "type": "info",
+          "title": "Reusing Blueprints",
+          "content": {
+            "text": "If you have a `Vehicle` class, you don't need to rewrite the 'Drive' logic for `Car` and `Truck`. They can **Inherit** those traits.",
+            "button_text": "Try it"
+          }
+        },
+        {
+          "order": 2,
+          "type": "code",
+          "title": "Inheriting Power",
+          "content": {
+            "text": "Make class `Dog` inherit from `Animal`.",
+            "initial_code": "class Animal:\n    pass\n\nclass Dog():\n    pass",
+            "answer": "class Animal:\n    pass\n\nclass Dog(Animal):\n    pass",
+            "hint": "Put Animal inside the parentheses of Dog!"
+          }
+        }
+      ]
+    },
+    {
+      "order": 28,
+      "title": "Class 28: The Speed Loop (Comprehensions)",
+      "description": "Writing powerful loops in a single line of code.",
+      "steps": [
+        {
+          "order": 1,
+          "type": "info",
+          "title": "Compressed Logic",
+          "content": {
+            "text": "Instead of writing 4 lines for a loop, you can do it in 1. This is called a **List Comprehension**.\n\nExample: `[x*2 for x in numbers]`",
+            "button_text": "Code it"
+          }
+        },
+        {
+          "order": 2,
+          "type": "code",
+          "title": "The One-Liner",
+          "content": {
+            "text": "Create a list of numbers from 0 to 4 using a list comprehension.",
+            "initial_code": "nums = [x for x in ]\nprint(nums)",
+            "answer": "nums = [x for x in range(5)]\nprint(nums)",
+            "hint": "Use range(5)!"
+          }
+        }
+      ]
+    },
+    {
+      "order": 29,
+      "title": "Class 29: Professional Setup (VENV)",
+      "description": "Managing packages and isolated environments.",
+      "steps": [
+        {
+          "order": 1,
+          "type": "info",
+          "title": "The Sandbox",
+          "content": {
+            "text": "In the real world, different projects need different versions of libraries. We use **Virtual Environments (venv)** to keep them separate.",
+            "button_text": "Next"
+          }
+        },
+        {
+          "order": 2,
+          "type": "quiz",
+          "title": "Package Manager",
+          "content": {
+            "question": "What is the standard tool used to install Python packages?",
+            "options": [
+              "apt-get",
+              "npm",
+              "pip",
+              "google"
+            ],
+            "answer": "pip"
+          }
+        }
+      ]
+    },
+    {
+      "order": 30,
+      "title": "Class 30: Graduation (The Road Ahead)",
+      "description": "Final project overview and continuing your journey.",
+      "steps": [
+        {
+          "order": 1,
+          "type": "info",
+          "title": "You are a Coder",
+          "content": {
+            "text": "Congratulations! You've gone from `print()` to Object-Oriented Programming and File I/O.\n\nThis is just the beginning. The world of Web Development (Django/Flask), Data Science (Pandas), and AI (PyTorch) is now open to you.",
+            "button_text": "Final Challenge"
+          }
+        },
+        {
+          "order": 2,
+          "type": "code",
+          "title": "The Reunion",
+          "content": {
+            "text": "Combine your knowledge: Create a function `calc` that returns `a * b`. Then use it to print `5 * 5`.",
+            "initial_code": "def calc(a, b):\n    \n\nprint(calc(5, 5))",
+            "answer": "def calc(a, b):\n    return a * b\n\nprint(calc(5, 5))",
+            "hint": "Use the return keyword!"
+          }
+        },
+        {
+          "order": 3,
+          "type": "info",
+          "title": "Mastery Achieved",
+          "content": {
+            "text": "You have completed the Complete Python Mastery course. \n\n**Next Steps:**\n- Build a personal project.\n- Contribute to Open Source.\n- Keep learning every day.",
+            "button_text": "Finish Course"
+          }
+        }
+      ]
+    }
+  ]
+}

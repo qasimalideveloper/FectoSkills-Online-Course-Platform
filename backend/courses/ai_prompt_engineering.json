@@ -1,0 +1,784 @@
+{
+  "title": "AI Prompt Engineering",
+  "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800",
+  "price": 500.0,
+  "description": "Master the art of AI communication - Learn to craft powerful prompts for ChatGPT, Claude, and other AI models in 30 hands-on lessons.",
+  "classes": [
+    {
+      "order": 1,
+      "title": "Class 1: The AI Communication Revolution",
+      "description": "Understanding AI models and why prompt engineering is the most valuable skill of 2024.",
+      "steps": [
+        {
+          "order": 1,
+          "type": "info",
+          "title": "Welcome to the Future",
+          "xp_reward": 10,
+          "content": {
+            "text": "Imagine having a brilliant assistant who knows almost everything, writes better than most professionals, codes in dozens of languages, and never gets tired.\n\n**That's what AI models like ChatGPT, Claude, and Gemini offer you.**\n\nBut here's the secret most people miss: These AI models are only as good as the instructions you give them. A vague prompt gets mediocre results. A masterful prompt unlocks genius-level output.\n\n**Prompt Engineering is the skill of the future** - and you're about to master it.",
+            "button_text": "I'm ready!"
+          }
+        },
+        {
+          "order": 2,
+          "type": "info",
+          "title": "What is a Large Language Model?",
+          "xp_reward": 10,
+          "content": {
+            "text": "AI models like ChatGPT are called **Large Language Models (LLMs)**. Think of them as incredibly sophisticated pattern recognition machines trained on billions of pages of text.\n\nThey don't 'think' like humans - they predict the most likely next word based on patterns they've learned. But they're so good at this that the results feel like magic.\n\n**Here's what they can do:**\n- Write anything from emails to novels\n- Explain complex topics in simple terms\n- Code in any programming language\n- Analyze data and provide insights\n- Translate, summarize, and transform text\n\nThe limit isn't the AI - it's **how well you can communicate what you want**.",
+            "button_text": "Continue"
+          }
+        },
+        {
+          "order": 3,
+          "type": "info",
+          "title": "The $300,000 Skill",
+          "xp_reward": 10,
+          "content": {
+            "text": "Companies are now hiring 'Prompt Engineers' at salaries reaching $300,000/year. Why?\n\nBecause someone who can consistently get AI to produce perfect outputs is worth their weight in gold. They can:\n\n- **10x productivity** for entire teams\n- **Replace expensive services** with clever prompts\n- **Automate complex workflows** most people can't imagine\n- **Create products** that would normally require huge teams\n\nThis course will give you that superpower. Not just simple tricks - **genuine mastery**.",
+            "button_text": "Show me proof"
+          }
+        },
+        {
+          "order": 4,
+          "type": "quiz",
+          "title": "Understanding the Basics",
+          "xp_reward": 15,
+          "content": {
+            "question": "What determines the quality of an AI model's response?",
+            "options": [
+              "The AI's intelligence level",
+              "The quality and clarity of your prompt",
+              "The time of day you ask",
+              "Random chance"
+            ],
+            "answer": "The quality and clarity of your prompt"
+          }
+        },
+        {
+          "order": 5,
+          "type": "info",
+          "title": "Bad Prompt vs Great Prompt",
+          "xp_reward": 10,
+          "content": {
+            "text": "Let's see the difference:\n\n**❌ Bad Prompt:**\n'Write about marketing'\n\n**✅ Great Prompt:**\n'You are a digital marketing expert with 10 years of experience. Write a 500-word blog post explaining Instagram marketing strategies for small coffee shops. Use a friendly, encouraging tone and include 3 actionable tips. Format with clear headings.'\n\nSee the difference? The great prompt specifies:\n- **Role** (marketing expert)\n- **Task** (blog post on Instagram marketing)\n- **Audience** (small coffee shops)\n- **Length** (500 words)\n- **Tone** (friendly, encouraging)\n- **Structure** (3 tips with headings)\n\nThe AI now knows EXACTLY what you want!",
+            "button_text": "This makes sense!"
+          }
+        },
+        {
+          "order": 6,
+          "type": "quiz",
+          "title": "Spot the Better Prompt",
+          "xp_reward": 15,
+          "content": {
+            "question": "Which prompt will get better results?",
+            "options": [
+              "Write a story",
+              "Write a 300-word mystery story for teenagers with a plot twist ending",
+              "Make something creative",
+              "Help me write"
+            ],
+            "answer": "Write a 300-word mystery story for teenagers with a plot twist ending"
+          }
+        },
+        {
+          "order": 7,
+          "type": "quiz",
+          "title": "Your First Analysis",
+          "xp_reward": 20,
+          "content": {
+            "question": "Look at this prompt: 'Explain Python' - What is the MAIN problem with it?",
+            "options": [
+              "It's too vague and unclear - we don't know what aspect of Python to explain, who it's for, or how detailed it should be",
+              "It's too technical",
+              "It's perfectly fine",
+              "It's too long"
+            ],
+            "answer": "It's too vague and unclear - we don't know what aspect of Python to explain, who it's for, or how detailed it should be"
+          }
+        },
+        {
+          "order": 8,
+          "type": "info",
+          "title": "The Prompt Engineering Mindset",
+          "xp_reward": 10,
+          "content": {
+            "text": "Here's the golden rule:\n\n**'If you were hiring a human expert, what instructions would you give them?'**\n\nYou wouldn't tell a professional writer 'write something good.' You'd say:\n- Who is it for?\n- What's the purpose?\n- What's the tone?\n- How long should it be?\n- What format do you want?\n\n**AI is the same.** The clearer your instructions, the better your results.\n\nIn the next class, we'll break down the exact formula for perfect prompts!",
+            "button_text": "Let's go!"
+          }
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "title": "Class 2: The Anatomy of a Perfect Prompt",
+      "description": "Learning the 5-part framework that transforms average prompts into exceptional ones.",
+      "steps": [
+        {
+          "order": 1,
+          "type": "info",
+          "title": "The CRAFT Framework",
+          "xp_reward": 10,
+          "content": {
+            "text": "After analyzing thousands of successful prompts, experts discovered a pattern. The best prompts follow this 5-part structure:\n\n**C - Context & Role**\n**R - Request (The Task)**\n**A - Audience**\n**F - Format**\n**T - Tone**\n\nRemember: **CRAFT**\n\nMaster this framework and you'll never write a bad prompt again. Let's break down each element!",
+            "button_text": "Teach me CRAFT"
+          }
+        },
+        {
+          "order": 2,
+          "type": "info",
+          "title": "C - Context & Role",
+          "xp_reward": 10,
+          "content": {
+            "text": "**Context** sets the scene. **Role** tells the AI who to be.\n\nExamples:\n- 'You are a patient kindergarten teacher explaining...'\n- 'You are a senior software engineer reviewing...'\n- 'You are a nutritionist creating meal plans for...'\n\n**Why it works:** AI models perform better when given a clear identity. It's like method acting - they embody the expertise of that role.\n\n**Pro Tip:** The more specific the role, the better. Instead of 'teacher,' say 'experienced 5th grade science teacher who specializes in making complex topics fun.'",
+            "button_text": "Next element"
+          }
+        },
+        {
+          "order": 3,
+          "type": "quiz",
+          "title": "Role Creation Best Practice",
+          "xp_reward": 25,
+          "content": {
+            "question": "Which role definition would produce the BEST AI responses?",
+            "options": [
+              "You are a teacher",
+              "You are a fitness expert",
+              "You are a certified personal trainer with 10 years of experience, specializing in weight loss for busy professionals",
+              "You are someone who knows about fitness"
+            ],
+            "answer": "You are a certified personal trainer with 10 years of experience, specializing in weight loss for busy professionals"
+          }
+        },
+        {
+          "order": 4,
+          "type": "info",
+          "title": "R - Request (The Actual Task)",
+          "xp_reward": 10,
+          "content": {
+            "text": "This is WHAT you want the AI to do. Be crystal clear.\n\n**Weak Requests:**\n- 'Write something about dogs'\n- 'Help me with my essay'\n- 'Make it better'\n\n**Strong Requests:**\n- 'Write a 400-word blog post explaining why golden retrievers make great family pets'\n- 'Improve this essay by strengthening the thesis statement and adding transition sentences between paragraphs'\n- 'Rewrite this email to sound more professional while keeping the same core message'\n\n**Key insight:** Use action verbs (Write, Analyze, Create, Explain, Summarize, Improve) and specify EXACTLY what output you want.",
+            "button_text": "Continue"
+          }
+        },
+        {
+          "order": 5,
+          "type": "quiz",
+          "title": "Identifying Strong Requests",
+          "xp_reward": 15,
+          "content": {
+            "question": "Which is the strongest task request?",
+            "options": [
+              "Help me understand physics",
+              "Explain quantum physics in simple terms using everyday examples, suitable for high school students, in about 200 words",
+              "Write about science",
+              "Make this better"
+            ],
+            "answer": "Explain quantum physics in simple terms using everyday examples, suitable for high school students, in about 200 words"
+          }
+        },
+        {
+          "order": 6,
+          "type": "info",
+          "title": "A - Audience",
+          "xp_reward": 10,
+          "content": {
+            "text": "**WHO is this for?** This dramatically changes the output.\n\nCompare these:\n- 'Explain blockchain to a 5-year-old'\n- 'Explain blockchain to a venture capitalist'\n- 'Explain blockchain to a computer science professor'\n\nSame topic, completely different explanations!\n\n**Audience details to consider:**\n- Age group (kids, teens, adults, seniors)\n- Expertise level (beginner, intermediate, expert)\n- Profession (engineers, marketers, teachers)\n- Goals (learning, making decisions, teaching others)\n\nThe AI will adjust complexity, vocabulary, and examples based on your audience specification.",
+            "button_text": "Got it!"
+          }
+        },
+        {
+          "order": 7,
+          "type": "info",
+          "title": "F - Format",
+          "xp_reward": 10,
+          "content": {
+            "text": "**How do you want the output structured?**\n\nCommon formats:\n- **Bullet points** - Quick, scannable lists\n- **Numbered steps** - Sequential instructions\n- **Essay with paragraphs** - Deep, flowing content\n- **Table** - Comparative data\n- **Email/Letter** - Professional correspondence\n- **Code** - Programming solutions\n- **Script/Dialogue** - Conversational format\n\n**Pro Tip:** You can even specify formatting details like 'Use markdown headings' or 'Include emojis for visual interest' or 'Bold key terms.'",
+            "button_text": "Next"
+          }
+        },
+        {
+          "order": 8,
+          "type": "info",
+          "title": "T - Tone",
+          "xp_reward": 10,
+          "content": {
+            "text": "**HOW should it sound?**\n\nTone examples:\n- **Professional** - Formal, business-appropriate\n- **Casual/Friendly** - Conversational, warm\n- **Enthusiastic** - Energetic, exciting\n- **Empathetic** - Understanding, compassionate\n- **Humorous** - Light, funny\n- **Academic** - Scholarly, formal\n- **Persuasive** - Convincing, compelling\n\nYou can even combine tones: 'Professional but warm' or 'Casual yet informative.'\n\n**The tone transforms the same information into completely different experiences!**",
+            "button_text": "Show me CRAFT in action"
+          }
+        },
+        {
+          "order": 9,
+          "type": "info",
+          "title": "CRAFT Example: Complete Prompt",
+          "xp_reward": 15,
+          "content": {
+            "text": "Here's a masterful prompt using all 5 elements:\n\n**C** (Context/Role): 'You are an experienced personal finance advisor'\n\n**R** (Request): 'Create a beginner's guide to building an emergency fund'\n\n**A** (Audience): 'for recent college graduates with their first full-time job'\n\n**F** (Format): 'as a step-by-step guide with 5 actionable steps'\n\n**T** (Tone): 'in an encouraging, non-judgmental tone'\n\n**Full prompt:** 'You are an experienced personal finance advisor. Create a beginner's guide to building an emergency fund for recent college graduates with their first full-time job. Format it as a step-by-step guide with 5 actionable steps. Use an encouraging, non-judgmental tone.'\n\n**This is a perfect prompt!**",
+            "button_text": "I want to practice!"
+          }
+        },
+        {
+          "order": 10,
+          "type": "quiz",
+          "title": "CRAFT Mastery Check",
+          "xp_reward": 20,
+          "content": {
+            "question": "In the CRAFT framework, what does the 'A' stand for?",
+            "options": [
+              "Action",
+              "Audience",
+              "Accuracy",
+              "Attachment"
+            ],
+            "answer": "Audience"
+          }
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "title": "Class 3: Context Mastery - Setting the Stage",
+      "description": "Deep dive into providing context that transforms AI responses from good to extraordinary.",
+      "steps": [
+        {
+          "order": 1,
+          "type": "info",
+          "title": "Why Context is Your Secret Weapon",
+          "xp_reward": 10,
+          "content": {
+            "text": "Context is like giving the AI a backstory. Without it, the AI is guessing. With it, the AI becomes a focused expert.\n\n**Without Context:**\n'Write a marketing email.'\n\n**With Context:**\n'You are the founder of an eco-friendly coffee brand targeting millennial women who care about sustainability. We just launched reusable coffee pods that reduce waste by 90%. Write a marketing email announcing this product.'\n\nSee how context **transforms a generic task into a targeted mission**?",
+            "button_text": "Teach me more"
+          }
+        },
+        {
+          "order": 2,
+          "type": "info",
+          "title": "The 3 Types of Context",
+          "xp_reward": 10,
+          "content": {
+            "text": "**1. Role Context** - Who is the AI pretending to be?\nExample: 'You are a senior therapist specializing in anxiety'\n\n**2. Situation Context** - What's the background situation?\nExample: 'A client is struggling with job interview anxiety'\n\n**3. Knowledge Context** - What background info does the AI need?\nExample: 'They have been unemployed for 6 months and have failed the last 3 interviews'\n\nCombining all three creates **powerful, targeted responses**.",
+            "button_text": "Show examples"
+          }
+        },
+        {
+          "order": 3,
+          "type": "info",
+          "title": "Role Context: Be Specific",
+          "xp_reward": 10,
+          "content": {
+            "text": "Compare these role assignments:\n\n**Weak:** 'You are a teacher'\n**Better:** 'You are a 4th grade science teacher'\n**Best:** 'You are an award-winning 4th grade science teacher known for making complex topics fun through hands-on experiments'\n\n**The more specific = the more expert the response.**\n\nOther powerful role contexts:\n- 'You are a Y Combinator startup advisor with 50 successful exits'\n- 'You are a Michelin-star chef specializing in Italian cuisine'\n- 'You are a physical therapist who works with professional athletes recovering from knee injuries'\n\nDon't be shy - **give the AI the credentials you need!**",
+            "button_text": "Next type"
+          }
+        },
+        {
+          "order": 4,
+          "type": "quiz",
+          "title": "Expert Role Selection",
+          "xp_reward": 25,
+          "content": {
+            "question": "You want AI to help teach guitar to absolute beginners. Which role context is BEST?",
+            "options": [
+              "You are a musician",
+              "You are a guitar player with experience",
+              "You are a professional guitar instructor with 15 years of experience, specializing in teaching complete beginners their first song in 30 days",
+              "You know how to play guitar"
+            ],
+            "answer": "You are a professional guitar instructor with 15 years of experience, specializing in teaching complete beginners their first song in 30 days"
+          }
+        },
+        {
+          "order": 5,
+          "type": "info",
+          "title": "Situation Context: The Backstory",
+          "xp_reward": 10,
+          "content": {
+            "text": "Situation context explains **what's happening and why it matters**.\n\nExamples:\n\n**For a business proposal:**\n'Our startup has been operating for 6 months, we have 1,000 users, and we're seeking seed funding to scale.'\n\n**For a medical question:**\n'The patient is a 45-year-old with type 2 diabetes, currently taking metformin, experiencing fatigue for the past 2 weeks.'\n\n**For creative writing:**\n'This is the final chapter where the protagonist must choose between saving their family or saving the city.'\n\n**Situation context makes the AI understand the stakes and urgency.**",
+            "button_text": "Continue"
+          }
+        },
+        {
+          "order": 6,
+          "type": "quiz",
+          "title": "Context Check",
+          "xp_reward": 15,
+          "content": {
+            "question": "Which provides the BEST context for writing?",
+            "options": [
+              "Write a blog post",
+              "You are a travel blogger writing about Paris",
+              "You are a travel blogger with 100,000 followers who focuses on budget travel. Write about visiting Paris for under $1000 for 5 days.",
+              "Write something good"
+            ],
+            "answer": "You are a travel blogger with 100,000 followers who focuses on budget travel. Write about visiting Paris for under $1000 for 5 days."
+          }
+        },
+        {
+          "order": 7,
+          "type": "info",
+          "title": "Knowledge Context: Feed the AI Data",
+          "xp_reward": 10,
+          "content": {
+            "text": "Sometimes the AI needs **specific information** you have to provide:\n\n**Example 1 - Writing about your product:**\n'Our product is called NightLight, a smart bedside lamp that gradually dims based on your sleep cycle. Price: $79. Main feature: Syncs with your phone's sleep tracker.'\n\n**Example 2 - Analyzing your business:**\n'Here are our metrics: 5,000 monthly visitors, 2% conversion rate, $50 average order value, $10,000 monthly ad spend.'\n\n**Example 3 - Editing your draft:**\n'Here is my current draft: [paste your text here]'\n\n**Pro Tip:** The more relevant data you provide, the more tailored and valuable the response!",
+            "button_text": "Practice time!"
+          }
+        },
+        {
+          "order": 8,
+          "type": "quiz",
+          "title": "Context Identification",
+          "xp_reward": 20,
+          "content": {
+            "question": "Look at this prompt: 'You are a certified nutritionist. Create a meal plan for someone trying to lose 10 pounds in 2 months through healthy eating.' - What type of context is 'trying to lose 10 pounds in 2 months'?",
+            "options": [
+              "Role Context - defining who the AI should be",
+              "Situation Context - describing the current circumstances and goals",
+              "Knowledge Context - providing specific data or information",
+              "Format Context - explaining how to structure the output"
+            ],
+            "answer": "Situation Context - describing the current circumstances and goals"
+          }
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "title": "Class 4: Task Definition - Crystal Clear Instructions",
+      "description": "Learning to define tasks so precisely that AI produces exactly what you need, every time.",
+      "steps": [
+        {
+          "order": 1,
+          "type": "info",
+          "title": "The Power of Precision",
+          "xp_reward": 10,
+          "content": {
+            "text": "The task is the CORE of your prompt. It's what you want done.\n\nThink of it like ordering at a restaurant:\n\n**Vague:** 'Give me food'\n**Specific:** 'I'll have the grilled salmon with steamed vegetables, no butter, and a side of quinoa'\n\nThe second order gets you exactly what you want. The first? Who knows!\n\n**Your AI tasks should be like the second order - perfectly clear.**",
+            "button_text": "Show me how"
+          }
+        },
+        {
+          "order": 2,
+          "type": "info",
+          "title": "The Action Verb Strategy",
+          "xp_reward": 10,
+          "content": {
+            "text": "Start your tasks with strong action verbs:\n\n**For Writing:**\n- Write, Compose, Draft, Create\n\n**For Analysis:**\n- Analyze, Evaluate, Compare, Assess\n\n**For Transformation:**\n- Rewrite, Improve, Simplify, Summarize\n\n**For Creation:**\n- Generate, Design, Build, Develop\n\n**For Explanation:**\n- Explain, Describe, Clarify, Teach\n\n**Weak:** 'I need something about social media'\n**Strong:** 'Create a 7-day Instagram content calendar for a fitness coach'\n\nThe action verb immediately clarifies what output format you expect!",
+            "button_text": "More examples"
+          }
+        },
+        {
+          "order": 3,
+          "type": "quiz",
+          "title": "Verb Power",
+          "xp_reward": 15,
+          "content": {
+            "question": "Which task uses the strongest action verb?",
+            "options": [
+              "Can you do something with this data?",
+              "Analyze this sales data and identify the top 3 revenue-driving products",
+              "Look at this data",
+              "Help me understand the data"
+            ],
+            "answer": "Analyze this sales data and identify the top 3 revenue-driving products"
+          }
+        },
+        {
+          "order": 4,
+          "type": "info",
+          "title": "Quantify Everything",
+          "xp_reward": 10,
+          "content": {
+            "text": "Numbers transform vague tasks into concrete deliverables.\n\n**Without Numbers:**\n'Write social media posts'\n\n**With Numbers:**\n'Write 5 Instagram posts, each 150 words, with 3 relevant hashtags'\n\n**Quantifiable elements:**\n- Word count (500 words, 2-page summary)\n- Item count (10 ideas, 3 examples, 5 steps)\n- Time frame (30-day plan, weekly schedule)\n- Quantity (5 variations, 3 alternatives)\n\n**Pro Tip:** When you specify numbers, AI knows exactly when it's done!",
+            "button_text": "Continue"
+          }
+        },
+        {
+          "order": 5,
+          "type": "quiz",
+          "title": "Quantification Power",
+          "xp_reward": 25,
+          "content": {
+            "question": "Which task request uses quantification BEST?",
+            "options": [
+              "Write blog posts about fitness",
+              "Write some fitness content",
+              "Write 5 blog posts about fitness, each 600 words long, covering: strength training, cardio, nutrition, recovery, and motivation",
+              "Write a lot of fitness articles"
+            ],
+            "answer": "Write 5 blog posts about fitness, each 600 words long, covering: strength training, cardio, nutrition, recovery, and motivation"
+          }
+        },
+        {
+          "order": 6,
+          "type": "info",
+          "title": "The Constraint Technique",
+          "xp_reward": 10,
+          "content": {
+            "text": "Constraints actually IMPROVE creativity and quality.\n\n**Types of useful constraints:**\n\n**Length:** 'No more than 200 words' or 'Between 500-700 words'\n\n**Scope:** 'Focus only on beginner-friendly tips' or 'Exclude technical jargon'\n\n**Style:** 'Use only simple sentences' or 'No bullet points, only paragraphs'\n\n**Inclusions:** 'Must include 3 real-world examples' or 'Reference recent 2024 trends'\n\n**Exclusions:** 'Do not mention competitor brands' or 'Avoid clichés'\n\n**Constraints = clarity! They prevent the AI from wandering off-topic.**",
+            "button_text": "Show example"
+          }
+        },
+        {
+          "order": 7,
+          "type": "info",
+          "title": "Perfect Task Example",
+          "xp_reward": 15,
+          "content": {
+            "text": "Here's a task with all best practices:\n\n**'Create a 7-day email sequence (one email per day, 250 words each) for welcoming new subscribers to a meditation app. Each email should:\n- Introduce one meditation technique\n- Include a specific 5-minute exercise they can try\n- End with an encouraging call-to-action\n- Use a warm, calming tone\n- Target busy professionals aged 28-45'**\n\nNotice:\n✅ Action verb (Create)\n✅ Quantity (7 emails)\n✅ Length (250 words each)\n✅ Structure (technique + exercise + CTA)\n✅ Constraints (5-minute exercises)\n✅ Audience (busy professionals 28-45)\n✅ Tone (warm, calming)\n\n**This is task definition mastery!**",
+            "button_text": "I get it!"
+          }
+        },
+        {
+          "order": 8,
+          "type": "quiz",
+          "title": "Task Quality Check",
+          "xp_reward": 20,
+          "content": {
+            "question": "Which task definition is MOST likely to get high-quality results?",
+            "options": [
+              "Write marketing content",
+              "Create 3 Facebook ad variations (100 words each) highlighting our eco-friendly packaging for environmentally conscious millennials",
+              "Make some ads for Facebook",
+              "Help me with advertising"
+            ],
+            "answer": "Create 3 Facebook ad variations (100 words each) highlighting our eco-friendly packaging for environmentally conscious millennials"
+          }
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "title": "Class 5: Format & Structure - Shaping Perfect Outputs",
+      "description": "Mastering output formatting to get exactly the structure you need every time.",
+      "steps": [
+        {
+          "order": 1,
+          "type": "info",
+          "title": "Why Format Matters",
+          "xp_reward": 10,
+          "content": {
+            "text": "The same content can be presented in dozens of ways. Format determines:\n\n- **Readability** - How easy it is to scan and understand\n- **Usability** - Whether you can directly use the output\n- **Impact** - How persuasive or memorable it is\n\n**Example:** Information about 'Benefits of Exercise'\n\nCould be formatted as:\n- A numbered list (quick, actionable)\n- A detailed essay (comprehensive, flowing)\n- A comparison table (analytical, organized)\n- Bullet points with emojis (visual, engaging)\n- A script (conversational, personal)\n\n**You choose the format based on your goal!**",
+            "button_text": "Teach me formats"
+          }
+        },
+        {
+          "order": 2,
+          "type": "info",
+          "title": "Common Output Formats",
+          "xp_reward": 10,
+          "content": {
+            "text": "**1. Lists (Bullet Points)**\nBest for: Quick reference, scannable info\nExample request: 'List the top 10 productivity apps in bullet points'\n\n**2. Numbered Steps**\nBest for: Instructions, processes, sequences\nExample: 'Provide 7 steps to launch a podcast as a numbered list'\n\n**3. Essay/Article**\nBest for: Deep dives, storytelling, persuasion\nExample: 'Write a 600-word article about remote work benefits'\n\n**4. Table**\nBest for: Comparisons, data organization\nExample: 'Create a table comparing 5 project management tools by price, features, and ease of use'\n\n**5. Email/Letter**\nBest for: Professional communication\nExample: 'Compose a formal email requesting a meeting with an investor'",
+            "button_text": "More formats"
+          }
+        },
+        {
+          "order": 3,
+          "type": "info",
+          "title": "Advanced Format Options",
+          "xp_reward": 10,
+          "content": {
+            "text": "**6. Q&A Format**\nBest for: FAQs, interview prep\nExample: 'Create 10 interview questions and model answers for a marketing manager role'\n\n**7. Script/Dialogue**\nBest for: Videos, podcasts, presentations\nExample: 'Write a 2-minute YouTube script explaining cryptocurrency to beginners'\n\n**8. Code**\nBest for: Programming, technical solutions\nExample: 'Write Python code to scrape product prices from a website'\n\n**9. Social Media Posts**\nBest for: Platform-specific content\nExample: 'Create 5 Twitter threads (each 5 tweets) about AI trends'\n\n**10. Template**\nBest for: Reusable frameworks\nExample: 'Design a cold email template for B2B sales outreach with [bracketed] customization fields'",
+            "button_text": "Show me combinations"
+          }
+        },
+        {
+          "order": 4,
+          "type": "quiz",
+          "title": "Format Selection",
+          "xp_reward": 15,
+          "content": {
+            "question": "What's the BEST format for comparing features of different smartphones?",
+            "options": [
+              "A long essay",
+              "A comparison table",
+              "A poem",
+              "A numbered list"
+            ],
+            "answer": "A comparison table"
+          }
+        },
+        {
+          "order": 5,
+          "type": "info",
+          "title": "Combining Formats (Pro Move)",
+          "xp_reward": 10,
+          "content": {
+            "text": "You can request MULTIPLE formats in one response:\n\n**Example:**\n'Create a comprehensive guide to starting a podcast. Format as follows:\n\n1. A 200-word introduction explaining why podcasting is valuable\n2. A 10-step numbered process for launching\n3. A table comparing 5 podcast hosting platforms\n4. A bullet-point checklist of equipment needed\n5. A concluding paragraph with 3 motivational tips'\n\n**This gives you a complete, multi-structured deliverable in ONE prompt!**\n\n**Pro Tip:** Use section headers to organize complex outputs: 'Section 1: Overview', 'Section 2: Step-by-Step', etc.",
+            "button_text": "I love this!"
+          }
+        },
+        {
+          "order": 6,
+          "type": "quiz",
+          "title": "Multi-Format Mastery",
+          "xp_reward": 25,
+          "content": {
+            "question": "Which format request is MOST detailed and structured?",
+            "options": [
+              "Write about LinkedIn branding",
+              "Explain LinkedIn branding in a good format",
+              "Create a guide about LinkedIn personal branding formatted as: (1) A 150-word introduction, (2) 7 numbered actionable steps, (3) 5 bullet points with final tips",
+              "Make it look professional"
+            ],
+            "answer": "Create a guide about LinkedIn personal branding formatted as: (1) A 150-word introduction, (2) 7 numbered actionable steps, (3) 5 bullet points with final tips"
+          }
+        },
+        {
+          "order": 7,
+          "type": "info",
+          "title": "Markdown & Styling Power",
+          "xp_reward": 10,
+          "content": {
+            "text": "You can request specific styling:\n\n**'Use markdown formatting with:**\n- **Bold** for key terms\n- *Italics* for emphasis\n- # Headings for sections\n- `Code blocks` for technical terms\n- > Blockquotes for important notes'\n\n**Or request visual elements:**\n- 'Include emojis for each section 📊'\n- 'Add separator lines between sections'\n- 'Use ALL CAPS for headings'\n\n**Why it matters:** Styled outputs are more engaging and ready to copy-paste into blogs, documents, or social media!\n\n**You control not just WHAT the AI writes, but HOW it looks!**",
+            "button_text": "Final lesson!"
+          }
+        },
+        {
+          "order": 8,
+          "type": "quiz",
+          "title": "Format Mastery",
+          "xp_reward": 20,
+          "content": {
+            "question": "Which format request is most detailed and useful?",
+            "options": [
+              "Write this in a good format",
+              "Make it look nice",
+              "Format as a 3-section article with H2 headings, include bullet points in section 2, and end with a call-to-action in bold",
+              "Use paragraphs"
+            ],
+            "answer": "Format as a 3-section article with H2 headings, include bullet points in section 2, and end with a call-to-action in bold"
+          }
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "title": "Class 6: Tone & Voice Mastery",
+      "description": "Control how AI sounds - professional to playful.",
+      "steps": [
+        {
+          "order": 1,
+          "type": "info",
+          "title": "Why Tone Matters",
+          "xp_reward": 10,
+          "content": {
+            "text": "Same info, different impact.\\n\\nProfessional: 'Exercise improves health.'\\nFriendly: 'Working out is amazing for you!'\\nMotivational: 'Transform yourself! Get stronger!'\\n\\nTone = personality!",
+            "button_text": "Continue"
+          }
+        },
+        {
+          "order": 2,
+          "type": "quiz",
+          "title": "Tone Selection",
+          "xp_reward": 15,
+          "content": {
+            "question": "Emailing investors. Best tone?",
+            "options": [
+              "Casual with emojis",
+              "Professional, confident, data-driven",
+              "Funny",
+              "Overly formal"
+            ],
+            "answer": "Professional, confident, data-driven"
+          }
+        },
+        {
+          "order": 3,
+          "type": "info",
+          "title": "Tone Keywords",
+          "xp_reward": 10,
+          "content": {
+            "text": "Professional: Formal, Polished\\nEngaging: Friendly, Warm\\nPersuasive: Compelling, Motivational\\nClear: Simple, Direct\\n\\nCombine: 'Professional yet warm'",
+            "button_text": "Got it!"
+          }
+        }
+      ]
+    },
+    {
+      "order": 7,
+      "title": "Class 7: Examples & Few-Shot Learning",
+      "description": "Show AI what you want - most powerful technique.",
+      "steps": [
+        {
+          "order": 1,
+          "type": "info",
+          "title": "Power of Examples",
+          "xp_reward": 10,
+          "content": {
+            "text": "Without: 'Write headlines'\\n\\nWith: 'Write like: 5 Secrets Your Boss Hides. Now write 3 more.'\\n\\nExamples teach your style!",
+            "button_text": "Continue"
+          }
+        },
+        {
+          "order": 2,
+          "type": "quiz",
+          "title": "When Examples Help",
+          "xp_reward": 15,
+          "content": {
+            "question": "When use examples?",
+            "options": [
+              "Never",
+              "Only coding",
+              "Specific style/format needed",
+              "Only simple tasks"
+            ],
+            "answer": "Specific style/format needed"
+          }
+        },
+        {
+          "order": 3,
+          "type": "info",
+          "title": "Sweet Spot",
+          "xp_reward": 10,
+          "content": {
+            "text": "Zero-Shot: No examples\\nFew-Shot (BEST): 2-3 examples\\nMany-Shot: 6+ (overkill)\\n\\n2-3 = perfect!",
+            "button_text": "Perfect!"
+          }
+        }
+      ]
+    },
+    {
+      "order": 8,
+      "title": "Class 8: Chain of Thought",
+      "description": "Make AI show thinking for accuracy.",
+      "steps": [
+        {
+          "order": 1,
+          "type": "info",
+          "title": "What Is CoT?",
+          "xp_reward": 10,
+          "content": {
+            "text": "Without: 'What's 23 × 47?' → '1,081'\\n\\nWith: 'Calculate 23 × 47. Show steps.' → Shows breakdown\\n\\nVerify logic!",
+            "button_text": "Continue"
+          }
+        },
+        {
+          "order": 2,
+          "type": "quiz",
+          "title": "CoT Benefits",
+          "xp_reward": 15,
+          "content": {
+            "question": "Main CoT benefit?",
+            "options": [
+              "Longer responses",
+              "Think like humans",
+              "Better accuracy + verifiable logic",
+              "Saves time"
+            ],
+            "answer": "Better accuracy + verifiable logic"
+          }
+        },
+        {
+          "order": 3,
+          "type": "info",
+          "title": "Magic Phrase",
+          "xp_reward": 10,
+          "content": {
+            "text": "'Let's think step by step'\\n\\nBoosts accuracy!\\n\\nUse for: math, analysis, decisions",
+            "button_text": "Awesome!"
+          }
+        }
+      ]
+    },
+    {
+      "order": 9,
+      "title": "Class 9: Constraints & Boundaries",
+      "description": "Use limitations for precision.",
+      "steps": [
+        {
+          "order": 1,
+          "type": "info",
+          "title": "Why Constraints Help",
+          "xp_reward": 10,
+          "content": {
+            "text": "Without: 'Write about productivity' → Anything\\n\\nWith: '500 words, 5 tips, friendly, no apps' → Exact!\\n\\nConstraints = Clarity!",
+            "button_text": "Continue"
+          }
+        },
+        {
+          "order": 2,
+          "type": "quiz",
+          "title": "Constraint Purpose",
+          "xp_reward": 15,
+          "content": {
+            "question": "Why constraints?",
+            "options": [
+              "Longer prompts",
+              "Confuse AI",
+              "Clear boundaries for exact output",
+              "Limit creativity"
+            ],
+            "answer": "Clear boundaries for exact output"
+          }
+        },
+        {
+          "order": 3,
+          "type": "info",
+          "title": "Must/Must Not",
+          "xp_reward": 10,
+          "content": {
+            "text": "Must Include:\\n- Success stories\\n- Stats\\n- CTA\\n\\nMust NOT:\\n- Sales talk\\n- Competitors\\n- Emojis\\n\\nPerfect!",
+            "button_text": "Got it!"
+          }
+        }
+      ]
+    },
+    {
+      "order": 10,
+      "title": "Class 10: Iterative Refinement",
+      "description": "Polish through strategic follow-ups.",
+      "steps": [
+        {
+          "order": 1,
+          "type": "info",
+          "title": "80/20 Rule",
+          "xp_reward": 10,
+          "content": {
+            "text": "First = 80%\\n\\n1. Initial → Foundation\\n2. Refine → Tone\\n3. Refine → Examples\\n4. Refine → Length\\n\\nPros iterate!",
+            "button_text": "Continue"
+          }
+        },
+        {
+          "order": 2,
+          "type": "quiz",
+          "title": "Best Refinement",
+          "xp_reward": 15,
+          "content": {
+            "question": "Best approach?",
+            "options": [
+              "Start over",
+              "Never refine",
+              "Targeted follow-ups",
+              "Ask 'make better'"
+            ],
+            "answer": "Targeted follow-ups"
+          }
+        },
+        {
+          "order": 3,
+          "type": "info",
+          "title": "More/Less",
+          "xp_reward": 10,
+          "content": {
+            "text": "'Make it:\\n- More engaging\\n- Less formal\\n- More specific'\\n\\nYou direct!",
+            "button_text": "Perfect!"
+          }
+        },
+        {
+          "order": 4,
+          "type": "quiz",
+          "title": "Pro Workflow",
+          "xp_reward": 20,
+          "content": {
+            "question": "Pro workflow?",
+            "options": [
+              "One perfect prompt",
+              "Foundation + refinements",
+              "Random trying",
+              "Copy others"
+            ],
+            "answer": "Foundation + refinements"
+          }
+        }
+      ]
+    }
+  ]
+}
