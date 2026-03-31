@@ -3,7 +3,7 @@ Link: https://fectoskills.netlify.app/ <br><br>
 I made this whole platform using HTMLL|CSS|JS for frontend and cashier admin page through which i can approve payments, approve withdraws and answer questions<br>
 and for Backend, i used Python Flask with SQLITE Database and organized everything with clean format
 ## Features
-safe login & signup <br>
+Safe login & signup <br>
 Premium UI for learning <br>
 Affiliate Marketing with courses<br>
 AI Chatbot to help learn faster and answer questions about the course<br>
