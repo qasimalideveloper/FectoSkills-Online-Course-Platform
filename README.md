@@ -21,4 +21,8 @@ Fair Prices for courses <br>
 <img width="1920" height="913" alt="image" src="https://github.com/user-attachments/assets/684b09f8-479f-4b66-bdbd-9c324f0640bd" /><br><br><br>
 <img width="1919" height="916" alt="image" src="https://github.com/user-attachments/assets/7289558a-4bdd-4fbf-9ae4-e7cef35fe529" /><br><br><br>
 <img width="1918" height="905" alt="image" src="https://github.com/user-attachments/assets/30b78939-228b-4513-a16a-866f23332483" /><br><br><br>
+# Admin Page Screenshots
+<img width="1916" height="913" alt="image" src="https://github.com/user-attachments/assets/2cf24784-9f1f-4233-aeda-6e32a59ec24d" />
+
+
 
