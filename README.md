@@ -1,4 +1,4 @@
-# FectoSkills an online platform where anyone can buy and do courses<br><br>
+# FectoSkills an online platform where anyone can buy and do courses
 Link: https://fectoskills.netlify.app/ <br><br>
 I made this whole platform using HTMLL|CSS|JS for frontend and cashier admin page through which i can approve payments, approve withdraws and answer questions<br>
 and for Backend, i used Python Flask with SQLITE Database and organized everything with clean format
